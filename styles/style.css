@@ -28,6 +28,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    font-family: cursive;
 }
 
 section {
@@ -127,4 +128,13 @@ footer {
       height:25px;
       background: white;
   }
- 
+
+  button {
+    font-weight: 900;
+    border-radius: 15%;
+    transition: all 2s ease-in-out;
+  }
+  button:hover {
+    background: steelblue;
+    transform: rotate3d(2, -1, -1, 5turn)
+}
