@@ -11,6 +11,7 @@ sumButton.addEventListener('click', () => {
     const value2 = sumInput2.valueAsNumber;
     const sum = value1 + value2;
     sumSpan.textContent = sum;
+    document.body.style.backgroundColor = "orange";
 })
 
 const subInput1 = document.getElementById("sub-input-1");
@@ -25,6 +26,7 @@ subButton.addEventListener('click', () => {
     const value2 = subInput2.valueAsNumber;
     const sub = value1 - value2;
     subSpan.textContent = sub;
+    document.body.style.backgroundColor = "purple"
 })
 
 const multInput1 = document.getElementById("mult-input-1");
@@ -39,6 +41,7 @@ multButton.addEventListener('click', () => {
     const value2 = multInput2.valueAsNumber;
     const mult = value1 * value2;
     multSpan.textContent = mult;
+    document.body.style.backgroundColor = "black"
 })
 
 const divInput1 = document.getElementById("div-input-1");
@@ -53,4 +56,5 @@ divButton.addEventListener('click', () => {
     const value2 = divInput2.valueAsNumber;
     const div = value1 / value2;
     divSpan.textContent = div;
+    document.body.style.backgroundColor = "pink"
 })
