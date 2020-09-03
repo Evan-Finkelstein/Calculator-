@@ -125,7 +125,8 @@ footer {
   }
   .answer{
       border: solid black 1px;
-      width: 50px;
+      width: auto;
+      min-width: 50px;
       height:25px;
       background: rgb(223, 215, 215);
       display: flex;
