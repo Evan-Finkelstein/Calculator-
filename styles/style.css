@@ -152,7 +152,7 @@ footer {
       }
   button:hover {
     background: steelblue;
-    transform: rotate3d(2, -1, -1, 5turn) scale(4, 4);
+    transform: rotate3d(2, -1, -1, 5turn) scale(7, 7);
     background: paleturquoise;
     border-radius: 20px;
     
@@ -163,6 +163,17 @@ input{
 }
 input:hover {
     background :rgb(202, 199, 199);
-    transform: scale(2, 2);
+    transform: scale(1.4, 1.4);
+   
+}
+section:hover{
+    background: rgb(110, 7, 7);
+}
+main:hover{
+    background: rgb(204, 194, 49);
+}
+div:hover{
+    transform: scale(1.5, 1.5);
+    color: blueviolet;
    
 }
