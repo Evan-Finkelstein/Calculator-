@@ -140,11 +140,8 @@ footer {
     background:rgb(248, 248, 134);
     transform: scale(10, 10) rotate3d(2, -1, -1, 3turn) translateX(-45px);
     border-radius: 8px;
-    
-
-
-
 }
+
   button {
     font-weight: 900;
     border-radius: 15%;
@@ -169,7 +166,7 @@ input:hover {
     transform: scale(1.4, 1.4);
    
 }
-}
+
 main:hover{
     background: rgb(204, 194, 49);
 }
