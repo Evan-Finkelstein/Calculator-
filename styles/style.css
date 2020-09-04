@@ -132,14 +132,14 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center;
-      transition: all 2s ease-in-out;
+      transition: all 1.75s ease-in-out;
        
   }
 .answer:hover{
     background:rgb(248, 248, 134);
-    transform: scale(10, 10) rotate3d(2, -1, -1, 3turn);
+    transform: scale(10, 10) rotate3d(2, -1, -1, 3turn) translateX(-45px);
     border-radius: 8px;
-    transition: all 2s ease-in-out;
+    
 
 
 
@@ -147,12 +147,12 @@ footer {
   button {
     font-weight: 900;
     border-radius: 15%;
-    transition: all 2s ease-in-out;
+    transition: all .5s ease-in-out;
     background: plum;
       }
   button:hover {
     background: steelblue;
-    transform: rotate3d(2, -1, -1, 5turn) scale(7, 7);
+    transform:  scale(2, 2);
     background: paleturquoise;
     border-radius: 20px;
     
@@ -166,8 +166,6 @@ input:hover {
     transform: scale(1.4, 1.4);
    
 }
-section:hover{
-    background: rgb(110, 7, 7);
 }
 main:hover{
     background: rgb(204, 194, 49);
