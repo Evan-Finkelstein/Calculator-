@@ -125,6 +125,7 @@ footer {
   }
   .calculator:hover{
     transform: scale(1.5, 1.5);
+    border: solid rgb(0, 0, 0) 7px;
   }
 
     
@@ -144,7 +145,7 @@ footer {
   }
 .answer:hover{
     background:rgb(248, 248, 134);
-    transform: scale(5, 5) rotate3d(2, -1, -1, 3turn) translateX(-45px);
+    transform: scale(5, 5) rotate3d(2, -1, -1, 3turn) translateX(-60px);
     border-radius: 8px;
 }
 
@@ -153,6 +154,9 @@ footer {
     border-radius: 15%;
     transition: all .5s ease-in-out;
     background: plum;
+    font-family: fantasy;
+    font-weight: bold;
+
       }
   button:hover {
     background: steelblue;
