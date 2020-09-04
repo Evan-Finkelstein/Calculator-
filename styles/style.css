@@ -114,9 +114,7 @@ footer {
 
     80% {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
-    }
-
-  }
+    }}
 
   .calculator{
       border: solid 3px rgba(13, 21, 92, 0.925);
@@ -177,7 +175,7 @@ input:hover {
    
 }
 
-}
+
 div:hover{
     transform: scale(1.5, 1.5);
     color: blueviolet;
